@@ -10,7 +10,7 @@ Prerequisites:
 - SDL development libraries: SDL, SDL_image, SDL_ttf
 
 Install with brew:
-brew install sdl sdl_image sdl_ttfl
+brew install sdl sdl_image sdl_ttf
 
 
 - CLion
