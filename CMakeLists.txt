@@ -6,8 +6,8 @@ set(CMAKE_C_STANDARD 11)
 set(SOURCE_FILES HelloKarel.c)
 
 # Include Directories
-include_directories("include" "/usr/local/include")
-link_directories("/usr/local/lib")
+include_directories("include" "/usr/local/include" "/opt/homebrew/include")
+link_directories("/usr/local/lib" "/opt/homebrew/lib/")
 
 # Executables
 add_executable(StarterProject ${SOURCE_FILES})
