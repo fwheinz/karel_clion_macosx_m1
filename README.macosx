@@ -1,4 +1,4 @@
-2021-09-16:
+2025-10-13:
 
 ==================================
 Karel the Robot learns C
@@ -7,10 +7,10 @@ CLion-project for MacOSX platforms
 
 Prerequisites:
 
-- SDL development libraries: SDL, SDL_image, SDL_ttf
+- SDL2 development libraries: SDL2, SDL2_image, SDL2_ttf
 
 Install with brew:
-brew install sdl sdl_image sdl_ttf
+brew install sdl2 sdl2_image sdl2_ttf
 
 
 - CLion
