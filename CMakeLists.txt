@@ -15,10 +15,9 @@ add_executable(StarterProject ${SOURCE_FILES})
 # Linked Libraries
 
 target_link_libraries(StarterProject ${CMAKE_CURRENT_SOURCE_DIR}/lib/libkarel.a)
-target_link_libraries(StarterProject SDLmain)
-target_link_libraries(StarterProject SDL)
-target_link_libraries(StarterProject SDL_image)
-target_link_libraries(StarterProject SDL_ttf)
+target_link_libraries(StarterProject SDL2)
+target_link_libraries(StarterProject SDL2_image)
+target_link_libraries(StarterProject SDL2_ttf)
 target_link_libraries(StarterProject pthread)
 
 target_link_options(StarterProject PUBLIC -framework Cocoa)
