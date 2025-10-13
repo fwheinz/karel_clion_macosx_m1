@@ -3,6 +3,7 @@
 
 void setup(void);
 void run(void);
+void loadWorld (char *);
 
 void move(void);
 void turnLeft(void);
